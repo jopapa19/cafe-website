@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fff8f0; /* light coffee-like background */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #d2691e; /* chocolate brown */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background: #ffe4c4; /* light beige */
+}
+
+#menu {
+    background: #ffdab9; /* peach */
+}
+
+#about {
+    background: #f5deb3; /* wheat */
+}
+
+#contact {
+    background: #fff0f5; /* lavender blush */
+}
+
+/* Headings */
+h1, h2 {
+    color: #8b4513; /* saddle brown */
+}
+
+/* Menu list */
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* Contact form */
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d2691e;
+    border-radius: 5px;
+}
+
+button {
+    background: #d2691e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #8b4513;
+}
+
+/* Footer */
+footer {
+    background: #d2691e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
